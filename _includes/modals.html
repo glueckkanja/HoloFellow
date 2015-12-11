@@ -28,7 +28,7 @@
 {% for post in site.posts %}
    <div class="portfolio-modal modal fade" id="portfolioModalVideo{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
        <div class="modal-content">
-           <div class="close-modal" data-dismiss="modal" onclick="$('#Vid{{ post.modal-id }}').attr('src', '');$('#Vid{{ post.modal-id }}').attr('src', 'https://www.youtube.com/embed/{{ post.img }}?rel=0&amp;showinfo=0');">
+           <div class="close-modal" data-dismiss="modal" onclick="$('#Vid{{ post.modal-id }}').attr('src', '');$('#Vid{{ post.modal-id }}').attr('src', '//www.youtube.com/embed/{{ post.img }}?rel=0&amp;showinfo=0');">
                <div class="lr">
                    <div class="rl">
                    </div>
@@ -40,9 +40,9 @@
                        <div class="modal-body">
                            <h2>{{ post.title }}</h2>
                            <hr class="star-primary">
-                           <iframe id="Vid{{ post.modal-id }}" width="640" height="360" src="https://www.youtube.com/embed/{{ post.img }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                           <iframe id="Vid{{ post.modal-id }}" width="640" height="360" src="//www.youtube.com/embed/{{ post.img }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-                           <button type="button" class="btn btn-default" data-dismiss="modal" onclick="$('#Vid{{ post.modal-id }}').attr('src', '');$('#Vid{{ post.modal-id }}').attr('src', 'https://www.youtube.com/embed/{{ post.img }}?rel=0&amp;showinfo=0');"><i class="fa fa-times"></i> Close</button>
+                           <button type="button" class="btn btn-default" data-dismiss="modal" onclick="$('#Vid{{ post.modal-id }}').attr('src', '');$('#Vid{{ post.modal-id }}').attr('src', '//www.youtube.com/embed/{{ post.img }}?rel=0&amp;showinfo=0');"><i class="fa fa-times"></i> Close</button>
                        </div>
                    </div>
                </div>
