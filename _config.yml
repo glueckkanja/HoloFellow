@@ -1,0 +1,28 @@
+# Site settings
+title: HoloFellow | glueckkanja.com X-Mas Cardboard
+email: info@glueckkanja.com
+description: "Ihr persönlicher HoloLens Prototyp – der HoloFellow. Microsoft begeisterte die Welt Anfang des Jahres mit der unglaublichen ‚HoloLens‘. Wir konnten streng geheime Prototypen direkt aus den Forschungslaboren für Sie besorgen. Erleben Sie die virtuelle Realtität auf einfache, unterhaltsame Weise. Falten Sie unser HoloFellow Cardboard einfach zusammen, schauen Sie hinein und entdecken Sie die Welt neu."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: d7aa64
+  secondary: d7aa64
+  secondary-dark: 333
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/glueckkanja
+  - title: youtube
+    url: https://www.youtube.com/user/glueckkanja
+  - title: github
+    url: https://github.com/glueckkanja
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
